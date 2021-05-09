@@ -8,7 +8,7 @@ import { randomBytes } from 'crypto';
 import _debug from 'debug';
 const debug = _debug('koa-session');
 
-import SessionContext from './lib/context.js';
+import SessionContext from './lib/context.class.js';
 import util from './lib/util.js';
 import assert from 'assert';
 
